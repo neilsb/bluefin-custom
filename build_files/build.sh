@@ -9,6 +9,8 @@ rpm-ostree install waybar fontawesome-fonts-all
 # RPMfusion repos are available by default in ublue main images
 # List of rpmfusion packages can be found here:
 # https://mirrors.rpmfusion.org/mirrorlist?path=free/fedora/updates/43/x86_64/repoview/index.html&protocol=https&redirect=1
+# Install Cosmic
+dnf5 install -y @cosmic-desktop-environment
 
 # this installs a package from fedora repos
 dnf5 install -y tmux 
